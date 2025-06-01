@@ -4,7 +4,7 @@ Maria Laura Gutierrez
 
 Program Summary:
     This script is a Mad Libs program that takes nouns, verbs,adjectives,
-    and other words from the user, and Uuses them to create a personalized story.
+    and other words from the user, and uses them to create a personalized story.
 
 IPO Chart:
     Input: The user will input nouns, verbs, adjectives, and other word types.
@@ -16,7 +16,7 @@ IPO Chart:
 
 def main():
     # This is where I print the title and game instructions
-    print("MadLib Game ...\n")
+    print("Mad Libs Game ...\n")
     print("Enter the following words:")
 
     # This is where I ask the user for different words to insert in the story
@@ -36,7 +36,7 @@ def main():
     verb = input("Verb: ")
     adjective_3 = input("Adjective: ")
 
-    #This is where I put the variables into the story and print it out
+    #This is where I insert the variables into the story and display it
     print("\nThe Big Game !!!\n")
     print(f"Hello there, sports {plural_noun_1}!\n"
           f"This is {first_name}, talking to you from the press {noun_1}\n"
